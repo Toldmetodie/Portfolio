@@ -1,0 +1,58 @@
+body {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container {
+    height: 800px;
+    width: 500px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-image: url(TP.png);
+    border-radius: 50%;
+    background-position: center;
+    background-size: 210px;
+}
+
+
+.header {
+    display: flex;
+    margin-top: 100px;
+}
+
+.dark-bulb {
+    height: 50px;
+    width: 50px;
+    border-radius: collapse;
+    border: none;
+}
+
+.light-bulb {
+    height: 50px;
+    width: 50px;
+    border-radius: collapse;
+    border: none;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+
+    }
+}
